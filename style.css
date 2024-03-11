@@ -536,14 +536,28 @@ textarea{
     font-size: 15px;
     width: 95%;
 }
+
+.btntwo{
+    width: 30%;
+    height: 50px;
+    /* padding: 20px; */
+    font-size: 18px;
+    background: linear-gradient(90deg, #3956de 0, #657be5);
+    box-shadow: 0 4px 20px #3956de26;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-right: 250px;
+}
+
 .gmail{
     background: #e9e9ef;
-    width: 18%;
+    width: 15%;
     border-radius: 7px;
     padding: 5px 4px;
     margin-bottom: 30px;
     color: #939397;
-    font-size: 15px;
+    font-size: 12px;
 }
 .mail{
     color: #292d32;
