@@ -6,15 +6,16 @@
 
 body {
     font-family: Muli, sans-serif;
+    font-family: Rubik, sans-serif;
 }
 
 .logo {
-    font-size: 22px;
+    font-size: 25px;
     color: rgb(72, 72, 253);
 }
 
 .s {
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .navbar {
@@ -27,7 +28,7 @@ body {
 ul {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 ul li {
@@ -36,11 +37,12 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 17px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(121, 118, 118);
+    color: rgb(176, 172, 172);
+
 }
 
 .icon {
@@ -54,7 +56,16 @@ a:hover {
     color: rgb(72, 72, 253);
 }
 
-.icon:hover {
+.facebook:hover {
+    color: rgb(72, 72, 253);
+}
+ .twitter:hover{
+    color: rgb(72, 72, 253);
+}
+ .Instagram:hover{
+    color: rgb(72, 72, 253);
+}
+ .linkedin:hover{
     color: rgb(72, 72, 253);
 }
 
@@ -85,6 +96,7 @@ h3 {
     font-size: 30px;
     font-weight: 400 !important;
     letter-spacing: 2px;
+     
 }
 
 img {
@@ -98,7 +110,9 @@ p {
     font-weight: 400 !important;
     color: #9b9bae !important;
 }
-
+.pro{
+    color: black;
+}
 .btn.btn-primary {
     background: linear-gradient(90deg, #3956de 0, #657be5);
     border: none;
@@ -402,7 +416,7 @@ a {
 }
 
 .meeting {
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .meeting1 {
@@ -438,17 +452,18 @@ a {
     height: 300px;
     width: 100%;
     margin-top: 30px;
-
+    
 }
 
 button {
-    width: 50%;
+    width: 35%;
     height: 50px;
     /* padding: 20px; */
-    font-size: 20px;
-    background-color: aquamarine;
+    font-size: 18px;
+    background: linear-gradient(90deg,#2dd6b7 0,#58dec6);
     color: #fff;
-    border: 1px solid aquamarine;
+    border-radius: 5px;
+    border: 1px solid   ;
     position: relative;
 }
 
@@ -467,7 +482,7 @@ button {
     display: flex;
     align-items: start;
     flex-direction: column;
-    width: 100%;
+    width: 46%;
     /* gap: 4px; */
     padding: 10px 10px;
     margin-left: 45px;
@@ -479,20 +494,22 @@ button {
     align-items: start;
     flex-direction: column;
     padding: 10px 10px;
-    /* margin-left: 2px; */
+    /* margin-left: 20px; */
     
 }
 
 input {
-    font-size: 18px;
+    font-size: 15px;
     height: 20px;
     border: 1px solid rgb(240, 233, 233);
     border-radius: 7px;
     padding: 10px 7px;
     /* gap: 10px; */
+    letter-spacing: 1px;
 }
 label{
 margin-bottom: 5px;
+letter-spacing: 1px;
 }
 .subject {
     display: flex;
@@ -504,7 +521,7 @@ margin-bottom: 5px;
     
 }
 .subject input{
-    width: 98%;
+    width: 95%;
 }
 .get {
     margin-top: 50px;
@@ -514,7 +531,29 @@ margin-bottom: 5px;
 textarea{
     padding: 10px 7px;
     border: 1px solid rgb(240, 233, 233);
+    border-radius: 7px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    width: 95%;
 }
+.gmail{
+    background: #e9e9ef;
+    width: 18%;
+    border-radius: 7px;
+    padding: 5px 4px;
+    margin-bottom: 30px;
+    color: #939397;
+    font-size: 15px;
+}
+.mail{
+    color: #292d32;
+}
+.youreno{
+    display: flex;
+    gap: 100px;
+    margin-left: 170px;
+}
+
 footer{
     background-color:#292d32;;
     height: 250px;
