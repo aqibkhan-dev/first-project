@@ -59,13 +59,16 @@ a:hover {
 .facebook:hover {
     color: rgb(72, 72, 253);
 }
- .twitter:hover{
+
+.twitter:hover {
     color: rgb(72, 72, 253);
 }
- .Instagram:hover{
+
+.Instagram:hover {
     color: rgb(72, 72, 253);
 }
- .linkedin:hover{
+
+.linkedin:hover {
     color: rgb(72, 72, 253);
 }
 
@@ -96,7 +99,7 @@ h3 {
     font-size: 30px;
     font-weight: 400 !important;
     letter-spacing: 2px;
-     
+
 }
 
 img {
@@ -110,9 +113,11 @@ p {
     font-weight: 400 !important;
     color: #9b9bae !important;
 }
-.pro{
+
+.pro {
     color: black;
 }
+
 .btn.btn-primary {
     background: linear-gradient(90deg, #3956de 0, #657be5);
     border: none;
@@ -321,11 +326,18 @@ p {
     display: flex;
     justify-content: center;
     align-self: center;
-    gap: 200px;
+    gap: 150px;
+    margin-top: 20px;
 }
 
 .mt-6 {
-    margin-top: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.Feature-paragraph{
+    width: 70%;
 }
 
 .easy {
@@ -336,7 +348,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    /* gap: 30px; */
     flex-wrap: wrap;
 
 
@@ -385,7 +397,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    /* gap: 30px; */
     margin-top: 40px;
 }
 
@@ -394,65 +406,112 @@ a {
     width: 15%;
 }
 
-.meet {
-    margin-left: 200px;
-    margin-top: 26px;
 
+
+#letest-news-sec {
+    text-align: center;
+    margin-top: 80px;
 }
 
-.meet img {
-    height: 350px;
-    width: 120%;
-    margin-right: 50px;
-    padding-right: 50px;
+.letest-news-paragraph {
+    width: 600px;
+    margin: auto;
+    margin-top: 15px;
 }
 
-.row4 {
+.letest-left-img {
+    border-radius: 10px;
+    height: 390px;
+}
+
+.letest-news-items {
     display: flex;
-    /* justify-content:center; */
-    /* float: right; */
-    gap: 150px;
-    /* width: 150%; */
+    flex-direction: column;
+    gap: 30px;
 }
 
-.meeting {
-    margin-top: 35px;
-}
-
-.meeting1 {
+.letest-sec {
     display: flex;
-    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.letest-item1 {
+    display: flex;
+    text-align: start;
+    gap: 25px;
     align-items: center;
-    width: 50%;
-    /* gap: 30px; */
-    margin-bottom: 20px;
-
-
 }
 
-.meeting2 {
+.letest-item2 {
     display: flex;
-    justify-content: center;
+    text-align: start;
+    gap: 25px;
     align-items: center;
-    width: 50%;
-    margin-bottom: 20px;
-
 }
 
-.meeting3 {
+.letest-item3 {
     display: flex;
-    justify-content: center;
+    text-align: start;
+    gap: 25px;
     align-items: center;
-    width: 50%;
-    margin-bottom: 20px;
+}
+
+.letest-item1 img {
+    width: 150px;
+    height: 110px;
+    border-radius: 10px;
+}
+
+.letest-item1-heading {
+    padding-bottom: 20px;
+    
+}
+
+.letest-item1-paragraph {
+    margin-bottom: 25px;
+    font-size: 15px;
+    
 
 }
+
+.letest-item2-heading {
+    padding-bottom: 20px;
+}
+
+.letest-item2-paragraph {
+    margin-bottom: 25px;
+}
+
+.letest-item3-heading {
+    padding-bottom: 20px;
+}
+
+.letest-item3-paragraph {
+    margin-bottom: 25px;
+}
+
+.letest-item2 img {
+    width: 150px;
+    border-radius: 10px;
+    height: 110px;
+}
+
+.letest-item3 img {
+    width: 150px;
+    border-radius: 10px;
+    height: 110px;
+}
+.letest-icon{
+    color: rgb(176, 172, 172);
+}
+
 
 .Contact img {
     height: 300px;
     width: 100%;
     margin-top: 30px;
-    
+
 }
 
 button {
@@ -460,21 +519,21 @@ button {
     height: 50px;
     /* padding: 20px; */
     font-size: 18px;
-    background: linear-gradient(90deg,#2dd6b7 0,#58dec6);
+    background: linear-gradient(90deg, #2dd6b7 0, #58dec6);
     color: #fff;
     border-radius: 5px;
-    border: 1px solid   ;
+    border: 1px solid;
     position: relative;
 }
 
 .row5 {
     display: flex;
-    
+
 }
 
 .fo {
     display: flex;
-   
+
 
 }
 
@@ -495,7 +554,7 @@ button {
     flex-direction: column;
     padding: 10px 10px;
     /* margin-left: 20px; */
-    
+
 }
 
 input {
@@ -507,10 +566,12 @@ input {
     /* gap: 10px; */
     letter-spacing: 1px;
 }
-label{
-margin-bottom: 5px;
-letter-spacing: 1px;
+
+label {
+    margin-bottom: 5px;
+    letter-spacing: 1px;
 }
+
 .subject {
     display: flex;
     align-items: start;
@@ -518,17 +579,20 @@ letter-spacing: 1px;
     margin-bottom: 35px;
     padding: 10px 10px;
     margin-left: 45px;
-    
+
 }
-.subject input{
+
+.subject input {
     width: 95%;
 }
+
 .get {
     margin-top: 50px;
     margin-left: 45px;
     text-align: start;
 }
-textarea{
+
+textarea {
     padding: 10px 7px;
     border: 1px solid rgb(240, 233, 233);
     border-radius: 7px;
@@ -537,7 +601,7 @@ textarea{
     width: 95%;
 }
 
-.btntwo{
+.btntwo {
     width: 30%;
     height: 50px;
     /* padding: 20px; */
@@ -550,7 +614,7 @@ textarea{
     margin-right: 250px;
 }
 
-.gmail{
+.gmail {
     background: #e9e9ef;
     width: 15%;
     border-radius: 7px;
@@ -559,75 +623,89 @@ textarea{
     color: #939397;
     font-size: 12px;
 }
-.mail{
+
+.mail {
     color: #292d32;
 }
-.youreno{
+
+.youreno {
     display: flex;
     gap: 100px;
     margin-left: 170px;
 }
 
-footer{
-    background-color:#292d32;;
-    height: 250px;
+footer {
+    background-color: #292d32;
+    ;
+    height: 320px;
     /* width:100%; */
     padding: 50px 100px;
 }
-.logo2{
+
+.logo2 {
     font-size: 30px;
     color: #fff;
 }
-.pa{
+
+.pa {
     padding: 10px 10px;
     color: #ffffff80 !important;
     font-size: 20px;
     padding: 20px 10px;
     margin-bottom: 30px;
 }
-.logo3{
+
+.logo3 {
     color: #ffffff80 !important;
     font-size: 20 px;
     margin-left: 5px;
 }
-.jo{
-    color: #ffffff80 !important; 
+
+.jo {
+    color: #ffffff80 !important;
 }
-.y{
+
+.y {
     list-style: none;
-    color: #ffffff80 !important; 
+    color: #ffffff80 !important;
     font-size: 19px;
     padding: 5px 7px;
     margin-top: 10px;
 }
-.footerhea{
+
+.footerhea {
     color: #ffffff80;
     margin-left: 15px;
-    
+
 }
-.footerpro{
+
+.footerpro {
     color: #ffffff80;
     margin-left: 15px;
-    
+
 }
-.footerlearn{
+
+.footerlearn {
     color: #ffffff80;
     margin-left: 15px;
-    
+
 }
-.int{
+
+.int {
     display: flex;
     align-items: start;
     gap: 60px;
 }
-.row6{
-   display: flex;
-   justify-content:space-around;
-   align-items: start;
+
+.row6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
 }
-.footerend{
+
+.footerend {
     text-align: center;
     color: #ffffff80;
-    margin-top: 20px;
+    margin-top: 55px;
 
 }
